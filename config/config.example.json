@@ -1,0 +1,40 @@
+{
+  "_comment": "Au AI 视觉自瞄外挂配置文件。请根据你的游戏与手感调整。",
+  "_comment2": "所有数值均为浮点/整数，修改后保存，程序重启或热加载后生效。",
+
+  "game_sensitivity": 1.0,
+  "aim_fov": 25,
+  "aim_speed_x": 1.0,
+  "aim_speed_y": 1.0,
+  "aim_speed_x2": 1.0,
+  "aim_speed_y2": 1.0,
+
+  "aim_pos1": "head",
+  "aim_pos2": "chest",
+
+  "smooth": 4.0,
+  "framersmooth": true,
+
+  "hotkeyA": "VK_XBUTTON2",
+  "hotkeyB": "VK_XBUTTON1",
+
+  "targetH": "head",
+  "targetV": "body",
+
+  "team_check": true,
+  "visibility_check": true,
+  "triggerbot": false,
+
+  "confidence_threshold": 0.45,
+  "ioU_threshold": 0.4,
+
+  "input_channel": "auto",
+  "_input_channels": "可选: auto | Aupx | UU | GHUB | Razer | TTBOX | Maku | KMBOX",
+
+  "capture_mode": "dxgi",
+  "overlay_enabled": true,
+  "esp_box": true,
+  "esp_bone": false,
+  "esp_health_bar": false,
+  "esp_distance": true
+}

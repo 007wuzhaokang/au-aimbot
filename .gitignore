@@ -1,0 +1,33 @@
+# --- 系统 / 编辑器 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# --- 本地运行产物 ---
+*.log
+*.tmp
+*.bak
+config/*.json.local
+config/config.local.json
+
+# --- 缓存 ---
+__pycache__/
+*.pyc
+.cache/
+
+# --- 密钥 / 授权 ---
+*.key
+*.token
+auth.json
+credentials.*
+
+# --- 构建产物 ---
+build/
+dist/
+*.obj
+*.pdb
