@@ -99,10 +99,8 @@ hotkeyA / hotkeyB / targetH / targetV
 - 内嵌 `DirectML.pdb` 引用，DirectML 为微软 DirectX 机器学习运行时
 - 架构：x64（PE32+，Machine 0x8664）
 
-## 五、目标游戏（字符串逆向确认）
+## 五、目标游戏
 
-- COD（使命召唤系列）
-- CF（穿越火线）
-- R6（彩虹六号：围攻）
+- 《无畏契约》（Valorant，Riot Games）
 
-> 注：目标游戏支持范围以实际检测模型与适配为准，以上为字符串证据。
+> 注：本外挂专用于《无畏契约》，检测模型与瞄准适配均针对该游戏优化。
