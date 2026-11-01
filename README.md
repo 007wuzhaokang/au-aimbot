@@ -1,6 +1,8 @@
 # Au Aimbot — 无畏契约（Valorant）AI 视觉自瞄外挂
 
 > 基于 ONNX + DirectML 的 AI 目标检测视觉自瞄，专用于《无畏契约》（Valorant），支持 DXGI 屏幕采集、Direct2D 覆盖层 ESP、鼠标驱动级注入。
+>
+> ⚠️ **本外挂需搭配 [UU 远程](https://uuyc.163.com)（网易 UU 云电脑/远程串流）使用**，通过远程串流画面进行 AI 检测与自瞄。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-blue.svg)]()
@@ -59,6 +61,8 @@ Au.exe (外层加载器 / Ki.UuycDeployer)
 
 **输入注入通道**（字符串逆向确认）：`Aupx | UU | GHUB | Razer | TTBOX | Maku | KMBOX`
 
+**运行方式**：本外挂**搭配 UU 远程（网易 UU 云电脑/远程串流）使用**——游戏画面通过 UU 远程串流到本机，外挂对串流画面做 DXGI 采集 + AI 目标检测，再通过注入通道输出自瞄移动。请先安装并登录 UU 远程，串流画面正常显示后再启动本外挂。
+
 **目标游戏**：《无畏契约》（Valorant，拳头游戏 Riot Games）。
 
 ---
@@ -69,6 +73,7 @@ Au.exe (外层加载器 / Ki.UuycDeployer)
 
 - Windows 10 1809+ / Windows 11（仅 64 位）
 - [VC++ 2015-2022 运行库 x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- **[UU 远程](https://uuyc.163.com)（网易 UU 云电脑/远程串流）——本外挂的必备前置软件**
 - 详见 [`docs/requirements.md`](docs/requirements.md)
 
 ### 2. 下载与校验
@@ -91,6 +96,11 @@ python scripts/verify.py
 | MD5 | `bac16255f92289c937bbd0923d506b2b` |
 
 ### 3. 运行
+
+**使用顺序（重要）**：
+
+1. 先启动并登录 **UU 远程**，打开《无畏契约》串流，确认画面正常显示。
+2. 再以管理员权限启动本外挂：
 
 ```bash
 # 双击或命令行启动（推荐管理员权限）
